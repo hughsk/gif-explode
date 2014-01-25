@@ -18,7 +18,8 @@ function createStream(frameCreated) {
     if (err) throw err
 
     var ps = spawn(gifsicle, [
-      '--explode'
+        '--unoptimize'
+      , '--explode'
     ], {
         cwd: location
       , env: {}
