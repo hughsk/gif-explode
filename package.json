@@ -1,7 +1,7 @@
 {
   "name": "gif-explode",
   "description": "Pipe a GIF buffer in, get its individual frames out",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
