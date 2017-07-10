@@ -3,13 +3,12 @@
   "description": "Pipe a GIF buffer in, get its individual frames out",
   "version": "0.0.1",
   "main": "index.js",
-  "browser": "index.js",
   "dependencies": {
-    "graceful-fs": "~2.0.1",
+    "graceful-fs": "^4.0.0",
     "rimraf": "~2.2.6",
     "tmp": "0.0.23",
     "streamify": "~0.2.2",
-    "gifsicle": "~0.1.4",
+    "gifsicle": "3.0.4",
     "async": "~0.2.10"
   },
   "devDependencies": {},
